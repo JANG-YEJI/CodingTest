@@ -19,7 +19,7 @@ def solution(new_id):
             
     #3단계 new_id에서 마침표(.)가 2번 이상 연속된 부분을 하나의 마침표(.)로 치환합니다.
     #while(".." in rec_new_id_2):
-        rec_new_id_2 = rec_new_id_2.replace("..", ".",)
+    rec_new_id_2 = rec_new_id_2.replace("..", ".",)
 
     #4단계 new_id에서 마침표(.)가 처음이나 끝에 위치한다면 제거합니다.
     rec_new_id_2 = rec_new_id_2.strip('.')
