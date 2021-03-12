@@ -50,4 +50,3 @@ print(solution("z-+.^."))
 print(solution("=.="))
 print(solution("123_.def"))
 print(solution("abcdefghijklmn.p"))
-
