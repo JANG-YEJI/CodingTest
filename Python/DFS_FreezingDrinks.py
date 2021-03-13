@@ -18,10 +18,11 @@ def dfs(x, y):
     if x <= -1 or x >=n or y <= -1 or y >= m:
         return False
 
-    #현재 노드를 아직 방문하지 않았다면
+    # 현재 노드를 아직 방문하지 않았다면
     if ice_f[x][y] == 0:
+        # 방문 처리
         ice_f[x][y] = 1
-
+        # 상하좌우의 위치도 재귀적으로 호출
         dfs(x-1, y)
         dfs(x, y-1)
         dfs(x+1, y)
