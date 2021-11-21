@@ -20,8 +20,6 @@ print(answer)
 
 
 
-
-
 def solution(array, commands):
 
     answer = []
